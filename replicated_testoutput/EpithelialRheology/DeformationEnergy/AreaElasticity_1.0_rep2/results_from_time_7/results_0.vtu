@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" header_type="UInt32">
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="28"                   NumberOfCells="9"                   >
+      <PointData>
+      </PointData>
+      <CellData>
+        <DataArray type="Float64" Name="Cell volumes" format="appended" RangeMin="0.039843896365"       RangeMax="0.61061856168"        offset="0"                   />
+        <DataArray type="Float64" Name="Prolif Cell types" format="appended" RangeMin="1"                    RangeMax="1"                    offset="104"                 />
+        <DataArray type="Float64" Name="Legacy Cell types" format="appended" RangeMin="1"                    RangeMax="5"                    offset="208"                 />
+        <DataArray type="Float64" Name="target area" format="appended" RangeMin="0.54355"              RangeMax="1"                    offset="312"                 />
+        <DataArray type="Float64" Name="volume" format="appended" RangeMin="0.039843896365"       RangeMax="0.61061856168"        offset="416"                 />
+      </CellData>
+      <Points>
+        <DataArray type="Float64" Name="Vertex positions" NumberOfComponents="3" format="appended" RangeMin="1.5100328332"         RangeMax="4.3107264978"         offset="520"                 />
+      </Points>
+      <Cells>
+        <DataArray type="Int64" Name="connectivity" format="appended" RangeMin=""                     RangeMax=""                     offset="1424"                />
+        <DataArray type="Int64" Name="offsets" format="appended" RangeMin=""                     RangeMax=""                     offset="1952"                />
+        <DataArray type="UInt8" Name="types" format="appended" RangeMin=""                     RangeMax=""                     offset="2056"                />
+      </Cells>
+    </Piece>
+  </UnstructuredGrid>
+  <AppendedData encoding="base64">
+   _SAAAAKmDuPFxY8I/ln1xqaQU0T+8pN44Dm/aPxE1F/AviuM/bkE6Mtpt4D/xLm5APYvFPwimao/beto/rlSrT2tmpD+g3mBXGr7IPw==SAAAAAAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPw==SAAAAAAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAAFEAAAAAAAADwPw==SAAAAKK0N/jCZOE/C0YldQIa6z8AAEDYnIztPwAAAAAAAPA/mpnZTVsC7T9hw9MrZRnlPwtGJXUCGus/wttAbdWO5D+itDf4wmThPw==SAAAAKmDuPFxY8I/ln1xqaQU0T+8pN44Dm/aPxE1F/AviuM/bkE6Mtpt4D/xLm5APYvFPwimao/beto/rlSrT2tmpD+g3mBXGr7IPw==oAIAAOLFPEyHbOQ/Sl1s+nHl9T8AAAAAAAAAAKblEQdjufY/Fevb+yqr9D8AAAAAAAAAAKR8Ks9R+wdAwQvYg4tt9z8AAAAAAAAAAMw5sFtwits/Xr1eitxY+D8AAAAAAAAAAOFGpmjCPvE/8ObOpGFC9z8AAAAAAAAAAI48KHzE/gNAj+qJqzmi+D8AAAAAAAAAAIbBdjFXuAlALjykEUU1+j8AAAAAAAAAAAOeMfoV4ds/l0gLZgaK/D8AAAAAAAAAAOJTi8uEhPI/wH+i9a7o/D8AAAAAAAAAAH17uv531gNAIrkfc9rI/j8AAAAAAAAAAMQpCKpTHApAhR5ayBer/z8AAAAAAAAAAK6bjDBfres/edUiH2apAEAAAAAAAAAAAL1CqNLSgP4/8Lwew0H0AEAAAAAAAAAAAPdvrSEVGAdAmG4fIVF4AUAAAAAAAAAAANVPzNuoswxAPWUbCIhuAkAAAAAAAAAAAGfP2SNoNO4/I65Uwm8eA0AAAAAAAAAAAB0quDOXtf0/TEe+z/65A0AAAAAAAAAAAFet3rIJSQdAUXp05xpBA0AAAAAAAAAAAA1X70nlqQxAclnWALQsA0AAAAAAAAAAAA6618Q4BvM/ISR4fEagBEAAAAAAAAAAANzyVetLZARARwaTIFwUBUAAAAAAAAAAAKy7gMq37QtAEpsaKACzA0AAAAAAAAAAAO3KSGRrMPw/dlftdg9c9z8AAAAAAAAAAPxO/RZULvo/vK3QybtF/T8AAAAAAAAAALlj8xVDhAtAEkkINymaAUAAAAAAAAAAAGL0ZgZrswpAOnMU2GZZA0AAAAAAAAAAACqV0pdIU+s/EmE+i+tR9z8AAAAAAAAAANG9/BfXXOU/3g59qMxn/j8AAAAAAAAAAA==iAEAAAAAAAAAAAAAGgAAAAAAAAAbAAAAAAAAAAcAAAAAAAAAAwAAAAAAAAABAAAAAAAAABYAAAAAAAAAFwAAAAAAAAAIAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAGAAAAAAAAAAoAAAAAAAAADQAAAAAAAAAJAAAAAAAAAAUAAAAAAAAACAAAAAAAAAAXAAAAAAAAAAwAAAAAAAAAEAAAAAAAAAATAAAAAAAAAA8AAAAAAAAACwAAAAAAAAAJAAAAAAAAAA0AAAAAAAAAEQAAAAAAAAAUAAAAAAAAABAAAAAAAAAADAAAAAAAAAAKAAAAAAAAABgAAAAAAAAAGQAAAAAAAAARAAAAAAAAAA0AAAAAAAAAFgAAAAAAAAAFAAAAAAAAAAkAAAAAAAAADAAAAAAAAAAXAAAAAAAAABgAAAAAAAAADgAAAAAAAAASAAAAAAAAABUAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAQAAAAAAAAACAAAAAAAAAALAAAAAAAAABsAAAAAAAAASAAAAAUAAAAAAAAACgAAAAAAAAAQAAAAAAAAABcAAAAAAAAAHQAAAAAAAAAiAAAAAAAAACcAAAAAAAAALAAAAAAAAAAxAAAAAAAAAA==CQAAAAcHBwcHBwcHBw==
+  </AppendedData>
+</VTKFile>

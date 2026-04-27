@@ -1,0 +1,553 @@
+done.
+
+Updating files:  72% (3125/4322)Updating files:  73% (3156/4322)Updating files:  74% (3199/4322)Updating files:  75% (3242/4322)Updating files:  76% (3285/4322)Updating files:  77% (3328/4322)Updating files:  78% (3372/4322)Updating files:  79% (3415/4322)Updating files:  80% (3458/4322)Updating files:  81% (3501/4322)Updating files:  82% (3545/4322)Updating files:  83% (3588/4322)Updating files:  84% (3631/4322)Updating files:  85% (3674/4322)Updating files:  86% (3717/4322)Updating files:  87% (3761/4322)Updating files:  88% (3804/4322)Updating files:  89% (3847/4322)Updating files:  90% (3890/4322)Updating files:  91% (3934/4322)Updating files:  92% (3977/4322)Updating files:  93% (4020/4322)Updating files:  94% (4063/4322)Updating files:  95% (4106/4322)Updating files:  96% (4150/4322)Updating files:  97% (4193/4322)Updating files:  98% (4236/4322)Updating files:  99% (4279/4322)Updating files: 100% (4322/4322)Updating files: 100% (4322/4322), done.
+-- Configuring done (7.0s)
+-- Generating done (5.3s)
+-- Build files have been written to: /workspace/EpithelialRheology/build
+[ 20%] Building CXX object CMakeFiles/chaste_project_EpithelialRheology.dir/src/NeighborDependentProliferationModifier.cpp.o
+[ 40%] Linking CXX shared library libchaste_project_EpithelialRheology.so
+[ 40%] Built target chaste_project_EpithelialRheology
+[ 60%] Building CXX object CMakeFiles/TestProliferation.dir/TestProliferation_runner.cpp.o
+[ 80%] Linking CXX executable TestProliferation
+[100%] Built target TestProliferation
+[100%] Built target chaste_project_EpithelialRheology
+=== BUILD DONE, STARTING SIMULATION ===
+Running 10 tests
+Changing directory from '/workspace/EpithelialRheology/build/' to '/home/conda/build_artifacts/chaste_1736320297758/work/'.
+CWD now: /home/conda/build_artifacts/chaste_1736320297758/work
+
+
+ ***** TestProliferation.hpp *****
+
+
+Entering TestCycleScale_0p10
+Starting simulation: CycleScale_0.10
+cycleScaleFactor = 0.1 (total cycle = 2.4 h)
+Target area: 60 units^2
+Initial cell count: 6
+t=1 h | cells=9 | area=6.72279/60 | coverage=11.2046%
+t=2 h | cells=10 | area=8.99706/60 | coverage=14.9951%
+t=3 h | cells=15 | area=10.628/60 | coverage=17.7133%
+t=4 h | cells=18 | area=13.9366/60 | coverage=23.2277%
+t=5 h | cells=23 | area=16.8011/60 | coverage=28.0018%
+t=6 h | cells=28 | area=18.5288/60 | coverage=30.8814%
+t=7 h | cells=35 | area=21.2873/60 | coverage=35.4788%
+t=8 h | cells=49 | area=24.0405/60 | coverage=40.0675%
+t=9 h | cells=54 | area=26.3637/60 | coverage=43.9394%
+t=10 h | cells=73 | area=29.8074/60 | coverage=49.679%
+t=11 h | cells=86 | area=32.0002/60 | coverage=53.3336%
+t=12 h | cells=93 | area=35.5968/60 | coverage=59.328%
+t=13 h | cells=125 | area=38.0683/60 | coverage=63.4471%
+t=14 h | cells=137 | area=40.9252/60 | coverage=68.2087%
+t=15 h | cells=162 | area=44.3292/60 | coverage=73.882%
+t=16 h | cells=190 | area=46.4301/60 | coverage=77.3834%
+t=17 h | cells=207 | area=50.7425/60 | coverage=84.5708%
+t=18 h | cells=215 | area=53.0581/60 | coverage=88.4302%
+t=19 h | cells=254 | area=56.1773/60 | coverage=93.6288%
+t=20 h | cells=253 | area=59.1313/60 | coverage=98.5521%
+t=21 h | cells=280 | area=59.972/60 | coverage=99.9534%
+t=22 h | cells=288 | area=60/60 | coverage=100%
+Box fully covered (100%) at t=22 h. Stopping.
+Final cell count: 288
+Passed
+Entering TestCycleScale_0p20
+Starting simulation: CycleScale_0.20
+cycleScaleFactor = 0.2 (total cycle = 4.8 h)
+Target area: 60 units^2
+Initial cell count: 6
+t=1 h | cells=8 | area=5.87402/60 | coverage=9.79004%
+t=2 h | cells=9 | area=7.0051/60 | coverage=11.6752%
+t=3 h | cells=10 | area=8.26434/60 | coverage=13.7739%
+t=4 h | cells=10 | area=9.20244/60 | coverage=15.3374%
+t=5 h | cells=11 | area=9.88501/60 | coverage=16.475%
+t=6 h | cells=15 | area=11.0551/60 | coverage=18.4252%
+t=7 h | cells=16 | area=13.0717/60 | coverage=21.7861%
+t=8 h | cells=18 | area=14.8248/60 | coverage=24.7079%
+t=9 h | cells=20 | area=16.237/60 | coverage=27.0617%
+t=10 h | cells=22 | area=17.5312/60 | coverage=29.2187%
+t=11 h | cells=26 | area=18.8344/60 | coverage=31.3907%
+t=12 h | cells=28 | area=19.8015/60 | coverage=33.0025%
+t=13 h | cells=31 | area=21.5188/60 | coverage=35.8647%
+t=14 h | cells=35 | area=23.6898/60 | coverage=39.483%
+t=15 h | cells=45 | area=25.5383/60 | coverage=42.5638%
+t=16 h | cells=48 | area=27.2419/60 | coverage=45.4032%
+t=17 h | cells=53 | area=28.3548/60 | coverage=47.258%
+t=18 h | cells=53 | area=30.189/60 | coverage=50.315%
+t=19 h | cells=57 | area=32.8097/60 | coverage=54.6828%
+t=20 h | cells=71 | area=34.6968/60 | coverage=57.828%
+t=21 h | cells=75 | area=36.4147/60 | coverage=60.6912%
+t=22 h | cells=83 | area=37.6454/60 | coverage=62.7423%
+t=23 h | cells=83 | area=40.0444/60 | coverage=66.7407%
+t=24 h | cells=89 | area=42.923/60 | coverage=71.5383%
+t=25 h | cells=112 | area=44.7539/60 | coverage=74.5899%
+t=26 h | cells=120 | area=46.4107/60 | coverage=77.3512%
+t=27 h | cells=131 | area=47.7256/60 | coverage=79.5426%
+t=28 h | cells=131 | area=50.2896/60 | coverage=83.8159%
+t=29 h | cells=139 | area=53.0156/60 | coverage=88.3593%
+t=30 h | cells=170 | area=54.6776/60 | coverage=91.1293%
+t=31 h | cells=179 | area=56.1701/60 | coverage=93.6169%
+t=32 h | cells=196 | area=57.6928/60 | coverage=96.1547%
+t=33 h | cells=208 | area=59.8696/60 | coverage=99.7826%
+t=34 h | cells=212 | area=60/60 | coverage=100%
+Box fully covered (100%) at t=34 h. Stopping.
+Final cell count: 212
+Passed
+Entering TestCycleScale_0p33
+Starting simulation: CycleScale_0.33
+cycleScaleFactor = 0.33 (total cycle = 7.92 h)
+Target area: 60 units^2
+Initial cell count: 6
+t=1 h | cells=8 | area=5.58453/60 | coverage=9.30755%
+t=2 h | cells=9 | area=6.28499/60 | coverage=10.475%
+t=3 h | cells=10 | area=7.24137/60 | coverage=12.069%
+t=4 h | cells=10 | area=8.47661/60 | coverage=14.1277%
+t=5 h | cells=11 | area=9.33033/60 | coverage=15.5506%
+t=6 h | cells=11 | area=9.97153/60 | coverage=16.6192%
+t=7 h | cells=12 | area=10.3328/60 | coverage=17.2214%
+t=8 h | cells=12 | area=10.8232/60 | coverage=18.0386%
+t=9 h | cells=16 | area=11.1814/60 | coverage=18.6357%
+t=10 h | cells=17 | area=12.5537/60 | coverage=20.9229%
+t=11 h | cells=18 | area=14.0468/60 | coverage=23.4113%
+t=12 h | cells=18 | area=15.5922/60 | coverage=25.987%
+t=13 h | cells=20 | area=16.6851/60 | coverage=27.8085%
+t=14 h | cells=20 | area=17.6637/60 | coverage=29.4395%
+t=15 h | cells=22 | area=18.4245/60 | coverage=30.7075%
+t=16 h | cells=22 | area=19.3028/60 | coverage=32.1713%
+t=17 h | cells=30 | area=19.9297/60 | coverage=33.2162%
+t=18 h | cells=30 | area=20.7317/60 | coverage=34.5528%
+t=19 h | cells=32 | area=21.458/60 | coverage=35.7633%
+t=20 h | cells=32 | area=22.4616/60 | coverage=37.436%
+t=21 h | cells=35 | area=23.7747/60 | coverage=39.6244%
+t=22 h | cells=35 | area=25.5225/60 | coverage=42.5375%
+t=23 h | cells=39 | area=27.0995/60 | coverage=45.1658%
+t=24 h | cells=39 | area=28.772/60 | coverage=47.9533%
+t=25 h | cells=50 | area=30.1447/60 | coverage=50.2412%
+t=26 h | cells=50 | area=31.4277/60 | coverage=52.3794%
+t=27 h | cells=53 | area=32.347/60 | coverage=53.9117%
+t=28 h | cells=57 | area=33.1637/60 | coverage=55.2728%
+t=29 h | cells=57 | area=34.5297/60 | coverage=57.5495%
+t=30 h | cells=57 | area=36.2918/60 | coverage=60.4863%
+t=31 h | cells=62 | area=38.1207/60 | coverage=63.5346%
+t=32 h | cells=62 | area=39.6243/60 | coverage=66.0405%
+t=33 h | cells=81 | area=41.0068/60 | coverage=68.3446%
+t=34 h | cells=81 | area=42.4329/60 | coverage=70.7215%
+t=35 h | cells=86 | area=43.583/60 | coverage=72.6383%
+t=36 h | cells=94 | area=44.4209/60 | coverage=74.0349%
+t=37 h | cells=94 | area=45.7466/60 | coverage=76.2443%
+t=38 h | cells=94 | area=47.5739/60 | coverage=79.2898%
+t=39 h | cells=102 | area=49.6436/60 | coverage=82.7393%
+t=40 h | cells=102 | area=51.4242/60 | coverage=85.707%
+t=41 h | cells=125 | area=52.9051/60 | coverage=88.1752%
+t=42 h | cells=125 | area=54.4247/60 | coverage=90.7079%
+t=43 h | cells=133 | area=55.7874/60 | coverage=92.9791%
+t=44 h | cells=144 | area=56.8451/60 | coverage=94.7419%
+t=45 h | cells=144 | area=58.4117/60 | coverage=97.3528%
+t=46 h | cells=144 | area=59.6573/60 | coverage=99.4288%
+t=47 h | cells=157 | area=59.9875/60 | coverage=99.9791%
+t=48 h | cells=157 | area=60/60 | coverage=100%
+t=49 h | cells=195 | area=60/60 | coverage=100%
+Box fully covered (100%) at t=49 h. Stopping.
+Final cell count: 195
+Passed
+Entering TestCycleScale_0p50
+Starting simulation: CycleScale_0.50
+cycleScaleFactor = 0.5 (total cycle = 12 h)
+Target area: 60 units^2
+Initial cell count: 6
+t=1 h | cells=7 | area=5.51772/60 | coverage=9.19619%
+t=2 h | cells=9 | area=5.74136/60 | coverage=9.56894%
+t=3 h | cells=9 | area=6.35292/60 | coverage=10.5882%
+t=4 h | cells=10 | area=6.9882/60 | coverage=11.647%
+t=5 h | cells=10 | area=7.72247/60 | coverage=12.8708%
+t=6 h | cells=10 | area=8.53871/60 | coverage=14.2312%
+t=7 h | cells=11 | area=9.11194/60 | coverage=15.1866%
+t=8 h | cells=11 | area=9.54014/60 | coverage=15.9002%
+t=9 h | cells=11 | area=9.95487/60 | coverage=16.5914%
+t=10 h | cells=11 | area=10.1994/60 | coverage=16.999%
+t=11 h | cells=12 | area=10.4829/60 | coverage=17.4715%
+t=12 h | cells=12 | area=10.7835/60 | coverage=17.9725%
+t=13 h | cells=14 | area=10.9753/60 | coverage=18.2922%
+t=14 h | cells=17 | area=11.4643/60 | coverage=19.1071%
+t=15 h | cells=17 | area=12.5453/60 | coverage=20.9088%
+t=16 h | cells=18 | area=13.6237/60 | coverage=22.7061%
+t=17 h | cells=18 | area=14.7371/60 | coverage=24.5618%
+t=18 h | cells=18 | area=15.8627/60 | coverage=26.4379%
+t=19 h | cells=20 | area=16.5892/60 | coverage=27.6487%
+t=20 h | cells=20 | area=17.2318/60 | coverage=28.7197%
+t=21 h | cells=20 | area=17.8406/60 | coverage=29.7343%
+t=22 h | cells=20 | area=18.3431/60 | coverage=30.5718%
+t=23 h | cells=21 | area=18.8242/60 | coverage=31.3737%
+t=24 h | cells=21 | area=19.2275/60 | coverage=32.0458%
+t=25 h | cells=23 | area=19.4357/60 | coverage=32.3928%
+t=26 h | cells=29 | area=19.7521/60 | coverage=32.9202%
+t=27 h | cells=29 | area=20.6764/60 | coverage=34.4607%
+t=28 h | cells=31 | area=21.4922/60 | coverage=35.8203%
+t=29 h | cells=31 | area=22.2769/60 | coverage=37.1282%
+t=30 h | cells=31 | area=23.2633/60 | coverage=38.7721%
+t=31 h | cells=35 | area=24.3985/60 | coverage=40.6641%
+t=32 h | cells=35 | area=25.7881/60 | coverage=42.9801%
+t=33 h | cells=35 | area=27.1376/60 | coverage=45.2294%
+t=34 h | cells=35 | area=28.4339/60 | coverage=47.3898%
+t=35 h | cells=37 | area=29.6162/60 | coverage=49.3604%
+t=36 h | cells=37 | area=30.6678/60 | coverage=51.1131%
+t=37 h | cells=41 | area=31.4108/60 | coverage=52.3513%
+t=38 h | cells=51 | area=32.0597/60 | coverage=53.4328%
+t=39 h | cells=51 | area=32.6543/60 | coverage=54.4238%
+t=40 h | cells=54 | area=33.2981/60 | coverage=55.4969%
+t=41 h | cells=54 | area=33.9559/60 | coverage=56.5931%
+t=42 h | cells=54 | area=34.7377/60 | coverage=57.8961%
+t=43 h | cells=60 | area=35.6148/60 | coverage=59.3579%
+t=44 h | cells=60 | area=37.0013/60 | coverage=61.6688%
+t=45 h | cells=60 | area=38.5917/60 | coverage=64.3195%
+t=46 h | cells=60 | area=40.2657/60 | coverage=67.1095%
+t=47 h | cells=63 | area=41.847/60 | coverage=69.745%
+t=48 h | cells=63 | area=43.2662/60 | coverage=72.1104%
+t=49 h | cells=68 | area=44.3863/60 | coverage=73.9772%
+t=50 h | cells=83 | area=45.4559/60 | coverage=75.7599%
+t=51 h | cells=83 | area=46.4571/60 | coverage=77.4285%
+t=52 h | cells=88 | area=47.3535/60 | coverage=78.9224%
+t=53 h | cells=88 | area=48.1137/60 | coverage=80.1895%
+t=54 h | cells=88 | area=48.849/60 | coverage=81.415%
+t=55 h | cells=97 | area=49.5953/60 | coverage=82.6589%
+t=56 h | cells=97 | area=50.9341/60 | coverage=84.8901%
+t=57 h | cells=97 | area=52.3962/60 | coverage=87.3271%
+t=58 h | cells=97 | area=54.0655/60 | coverage=90.1092%
+t=59 h | cells=100 | area=55.786/60 | coverage=92.9767%
+t=60 h | cells=100 | area=57.306/60 | coverage=95.51%
+t=61 h | cells=107 | area=58.4763/60 | coverage=97.4604%
+t=62 h | cells=131 | area=59.5179/60 | coverage=99.1965%
+t=63 h | cells=131 | area=59.8617/60 | coverage=99.7694%
+t=64 h | cells=140 | area=60/60 | coverage=100%
+Box fully covered (100%) at t=64 h. Stopping.
+Final cell count: 140
+Passed
+Entering TestCycleScale_0p75
+Starting simulation: CycleScale_0.75
+cycleScaleFactor = 0.75 (total cycle = 18 h)
+Target area: 60 units^2
+Initial cell count: 6
+t=1 h | cells=6 | area=5.50535/60 | coverage=9.17558%
+t=2 h | cells=7 | area=5.57874/60 | coverage=9.29789%
+t=3 h | cells=9 | area=5.76762/60 | coverage=9.6127%
+t=4 h | cells=9 | area=6.19102/60 | coverage=10.3184%
+t=5 h | cells=9 | area=6.64986/60 | coverage=11.0831%
+t=6 h | cells=10 | area=7.05607/60 | coverage=11.7601%
+t=7 h | cells=10 | area=7.53615/60 | coverage=12.5603%
+t=8 h | cells=10 | area=8.07788/60 | coverage=13.4631%
+t=9 h | cells=10 | area=8.6125/60 | coverage=14.3542%
+t=10 h | cells=11 | area=8.99891/60 | coverage=14.9982%
+t=11 h | cells=11 | area=9.30308/60 | coverage=15.5051%
+t=12 h | cells=11 | area=9.57982/60 | coverage=15.9664%
+t=13 h | cells=11 | area=9.85293/60 | coverage=16.4216%
+t=14 h | cells=11 | area=10.0765/60 | coverage=16.7942%
+t=15 h | cells=11 | area=10.2162/60 | coverage=17.027%
+t=16 h | cells=12 | area=10.3959/60 | coverage=17.3265%
+t=17 h | cells=12 | area=10.6675/60 | coverage=17.7791%
+t=18 h | cells=12 | area=10.8233/60 | coverage=18.0389%
+t=19 h | cells=12 | area=10.962/60 | coverage=18.2699%
+t=20 h | cells=14 | area=11.1399/60 | coverage=18.5666%
+t=21 h | cells=17 | area=11.5677/60 | coverage=19.2795%
+t=22 h | cells=17 | area=12.3314/60 | coverage=20.5524%
+t=23 h | cells=17 | area=13.1065/60 | coverage=21.8442%
+t=24 h | cells=18 | area=13.7756/60 | coverage=22.9594%
+t=25 h | cells=18 | area=14.4908/60 | coverage=24.1514%
+t=26 h | cells=18 | area=15.2451/60 | coverage=25.4086%
+t=27 h | cells=18 | area=15.9891/60 | coverage=26.6485%
+t=28 h | cells=20 | area=16.526/60 | coverage=27.5433%
+t=29 h | cells=20 | area=16.9794/60 | coverage=28.2989%
+t=30 h | cells=20 | area=17.4015/60 | coverage=29.0025%
+t=31 h | cells=20 | area=17.8215/60 | coverage=29.7025%
+t=32 h | cells=20 | area=18.1978/60 | coverage=30.3297%
+t=33 h | cells=20 | area=18.4898/60 | coverage=30.8164%
+t=34 h | cells=21 | area=18.7744/60 | coverage=31.2907%
+t=35 h | cells=21 | area=19.1855/60 | coverage=31.9759%
+t=36 h | cells=21 | area=19.3699/60 | coverage=32.2832%
+t=37 h | cells=21 | area=19.5166/60 | coverage=32.5277%
+t=38 h | cells=24 | area=19.631/60 | coverage=32.7184%
+t=39 h | cells=29 | area=20.1669/60 | coverage=33.6114%
+t=40 h | cells=29 | area=21.1421/60 | coverage=35.2369%
+t=41 h | cells=29 | area=22.0764/60 | coverage=36.794%
+t=42 h | cells=31 | area=22.9482/60 | coverage=38.247%
+t=43 h | cells=31 | area=23.7199/60 | coverage=39.5332%
+t=44 h | cells=31 | area=24.5031/60 | coverage=40.8385%
+t=45 h | cells=31 | area=25.2059/60 | coverage=42.0099%
+t=46 h | cells=35 | area=25.918/60 | coverage=43.1967%
+t=47 h | cells=35 | area=26.8721/60 | coverage=44.7868%
+t=48 h | cells=35 | area=27.8006/60 | coverage=46.3343%
+t=49 h | cells=35 | area=28.7314/60 | coverage=47.8856%
+t=50 h | cells=35 | area=29.5892/60 | coverage=49.3154%
+t=51 h | cells=35 | area=30.3659/60 | coverage=50.6098%
+t=52 h | cells=37 | area=31.0812/60 | coverage=51.802%
+t=53 h | cells=37 | area=31.8796/60 | coverage=53.1326%
+t=54 h | cells=37 | area=32.4013/60 | coverage=54.0022%
+t=55 h | cells=37 | area=32.8301/60 | coverage=54.7169%
+t=56 h | cells=42 | area=33.2186/60 | coverage=55.3643%
+t=57 h | cells=51 | area=33.5776/60 | coverage=55.9627%
+t=58 h | cells=51 | area=33.9586/60 | coverage=56.5977%
+t=59 h | cells=51 | area=34.4562/60 | coverage=57.4269%
+t=60 h | cells=53 | area=34.961/60 | coverage=58.2683%
+t=61 h | cells=53 | area=35.4806/60 | coverage=59.1343%
+t=62 h | cells=53 | area=36.0813/60 | coverage=60.1355%
+t=63 h | cells=53 | area=36.8075/60 | coverage=61.3459%
+t=64 h | cells=59 | area=37.5032/60 | coverage=62.5053%
+t=65 h | cells=59 | area=38.5512/60 | coverage=64.252%
+t=66 h | cells=59 | area=39.722/60 | coverage=66.2033%
+t=67 h | cells=59 | area=40.9439/60 | coverage=68.2398%
+t=68 h | cells=59 | area=42.1977/60 | coverage=70.3295%
+t=69 h | cells=59 | area=43.4483/60 | coverage=72.4138%
+t=70 h | cells=62 | area=44.6021/60 | coverage=74.3368%
+t=71 h | cells=62 | area=45.8252/60 | coverage=76.3753%
+t=72 h | cells=62 | area=46.7776/60 | coverage=77.9627%
+t=73 h | cells=62 | area=47.6063/60 | coverage=79.3438%
+t=74 h | cells=70 | area=48.3903/60 | coverage=80.6504%
+t=75 h | cells=83 | area=49.1336/60 | coverage=81.8894%
+t=76 h | cells=83 | area=49.8437/60 | coverage=83.0729%
+t=77 h | cells=83 | area=50.5174/60 | coverage=84.1956%
+t=78 h | cells=86 | area=51.1123/60 | coverage=85.1871%
+t=79 h | cells=86 | area=51.6736/60 | coverage=86.1227%
+t=80 h | cells=86 | area=52.2296/60 | coverage=87.0493%
+t=81 h | cells=86 | area=52.8242/60 | coverage=88.0404%
+t=82 h | cells=95 | area=53.3093/60 | coverage=88.8488%
+t=83 h | cells=95 | area=54.2179/60 | coverage=90.3631%
+t=84 h | cells=95 | area=55.2891/60 | coverage=92.1485%
+t=85 h | cells=95 | area=56.4553/60 | coverage=94.0921%
+t=86 h | cells=95 | area=57.7056/60 | coverage=96.176%
+t=87 h | cells=95 | area=58.8774/60 | coverage=98.1289%
+t=88 h | cells=100 | area=59.6265/60 | coverage=99.3775%
+t=89 h | cells=100 | area=59.909/60 | coverage=99.8483%
+t=90 h | cells=100 | area=59.9486/60 | coverage=99.9143%
+t=91 h | cells=100 | area=59.9858/60 | coverage=99.9763%
+t=92 h | cells=111 | area=60/60 | coverage=100%
+t=93 h | cells=131 | area=60/60 | coverage=100%
+Box fully covered (100%) at t=93 h. Stopping.
+Final cell count: 131
+Passed
+Entering TestCycleScale_1p50
+Starting simulation: CycleScale_1.50
+cycleScaleFactor = 1.5 (total cycle = 36 h)
+Target area: 60 units^2
+Initial cell count: 6
+t=1 h | cells=6 | area=5.47712/60 | coverage=9.12854%
+t=2 h | cells=6 | area=5.51091/60 | coverage=9.18485%
+t=3 h | cells=7 | area=5.5099/60 | coverage=9.18316%
+t=4 h | cells=7 | area=5.59292/60 | coverage=9.32154%
+t=5 h | cells=9 | area=5.68379/60 | coverage=9.47299%
+t=6 h | cells=9 | area=5.81703/60 | coverage=9.69506%
+t=7 h | cells=9 | area=6.04584/60 | coverage=10.0764%
+t=8 h | cells=9 | area=6.2839/60 | coverage=10.4732%
+t=9 h | cells=9 | area=6.51994/60 | coverage=10.8666%
+t=10 h | cells=9 | area=6.74279/60 | coverage=11.238%
+t=11 h | cells=9 | area=6.94807/60 | coverage=11.5801%
+t=12 h | cells=10 | area=7.12902/60 | coverage=11.8817%
+t=13 h | cells=10 | area=7.35502/60 | coverage=12.2584%
+t=14 h | cells=10 | area=7.62626/60 | coverage=12.7104%
+t=15 h | cells=10 | area=7.89839/60 | coverage=13.164%
+t=16 h | cells=10 | area=8.17028/60 | coverage=13.6171%
+t=17 h | cells=10 | area=8.44184/60 | coverage=14.0697%
+t=18 h | cells=10 | area=8.69957/60 | coverage=14.4993%
+t=19 h | cells=11 | area=8.89468/60 | coverage=14.8245%
+t=20 h | cells=11 | area=9.07241/60 | coverage=15.1207%
+t=21 h | cells=11 | area=9.22157/60 | coverage=15.3693%
+t=22 h | cells=11 | area=9.36068/60 | coverage=15.6011%
+t=23 h | cells=11 | area=9.49981/60 | coverage=15.833%
+t=24 h | cells=11 | area=9.63876/60 | coverage=16.0646%
+t=25 h | cells=11 | area=9.77743/60 | coverage=16.2957%
+t=26 h | cells=11 | area=9.91574/60 | coverage=16.5262%
+t=27 h | cells=11 | area=10.05/60 | coverage=16.7499%
+t=28 h | cells=11 | area=10.1251/60 | coverage=16.8752%
+t=29 h | cells=11 | area=10.1947/60 | coverage=16.9912%
+t=30 h | cells=11 | area=10.2647/60 | coverage=17.1078%
+t=31 h | cells=12 | area=10.3073/60 | coverage=17.1788%
+t=32 h | cells=12 | area=10.4375/60 | coverage=17.3959%
+t=33 h | cells=12 | area=10.5742/60 | coverage=17.6237%
+t=34 h | cells=12 | area=10.7107/60 | coverage=17.8511%
+t=35 h | cells=12 | area=10.7861/60 | coverage=17.9769%
+t=36 h | cells=12 | area=10.8563/60 | coverage=18.0939%
+t=37 h | cells=12 | area=10.9263/60 | coverage=18.2105%
+t=38 h | cells=12 | area=10.9961/60 | coverage=18.3268%
+t=39 h | cells=14 | area=10.9949/60 | coverage=18.3249%
+t=40 h | cells=14 | area=11.1571/60 | coverage=18.5952%
+t=41 h | cells=18 | area=11.3372/60 | coverage=18.8954%
+t=42 h | cells=18 | area=11.678/60 | coverage=19.4634%
+t=43 h | cells=18 | area=12.1278/60 | coverage=20.2129%
+t=44 h | cells=18 | area=12.5928/60 | coverage=20.9879%
+t=45 h | cells=18 | area=13.0622/60 | coverage=21.7704%
+t=46 h | cells=18 | area=13.5037/60 | coverage=22.5062%
+t=47 h | cells=18 | area=13.9101/60 | coverage=23.1835%
+t=48 h | cells=20 | area=14.2611/60 | coverage=23.7685%
+t=49 h | cells=20 | area=14.6796/60 | coverage=24.466%
+t=50 h | cells=20 | area=15.2171/60 | coverage=25.3618%
+t=51 h | cells=20 | area=15.7596/60 | coverage=26.2661%
+t=52 h | cells=20 | area=16.3026/60 | coverage=27.1709%
+t=53 h | cells=20 | area=16.8359/60 | coverage=28.0598%
+t=54 h | cells=20 | area=17.3533/60 | coverage=28.9222%
+t=55 h | cells=22 | area=17.748/60 | coverage=29.58%
+t=56 h | cells=22 | area=18.1006/60 | coverage=30.1677%
+t=57 h | cells=22 | area=18.4032/60 | coverage=30.672%
+t=58 h | cells=22 | area=18.6784/60 | coverage=31.1306%
+t=59 h | cells=22 | area=18.948/60 | coverage=31.5801%
+t=60 h | cells=22 | area=19.2191/60 | coverage=32.0319%
+t=61 h | cells=22 | area=19.4907/60 | coverage=32.4845%
+t=62 h | cells=22 | area=19.7613/60 | coverage=32.9355%
+t=63 h | cells=22 | area=20.0257/60 | coverage=33.3762%
+t=64 h | cells=22 | area=20.1754/60 | coverage=33.6256%
+t=65 h | cells=22 | area=20.3133/60 | coverage=33.8555%
+t=66 h | cells=22 | area=20.4512/60 | coverage=34.0854%
+t=67 h | cells=23 | area=20.5627/60 | coverage=34.2711%
+t=68 h | cells=23 | area=20.7605/60 | coverage=34.6008%
+t=69 h | cells=23 | area=20.9651/60 | coverage=34.9419%
+t=70 h | cells=23 | area=21.1656/60 | coverage=35.2761%
+t=71 h | cells=23 | area=21.2489/60 | coverage=35.4149%
+t=72 h | cells=23 | area=21.3198/60 | coverage=35.5329%
+t=73 h | cells=23 | area=21.3901/60 | coverage=35.6501%
+t=74 h | cells=23 | area=21.4601/60 | coverage=35.7668%
+t=75 h | cells=26 | area=21.4672/60 | coverage=35.7786%
+t=76 h | cells=26 | area=21.639/60 | coverage=36.0651%
+t=77 h | cells=32 | area=21.842/60 | coverage=36.4034%
+t=78 h | cells=32 | area=22.2331/60 | coverage=37.0551%
+t=79 h | cells=32 | area=22.8255/60 | coverage=38.0425%
+t=80 h | cells=32 | area=23.4261/60 | coverage=39.0435%
+t=81 h | cells=32 | area=24.0149/60 | coverage=40.0249%
+t=82 h | cells=32 | area=24.5561/60 | coverage=40.9268%
+t=83 h | cells=32 | area=25.0782/60 | coverage=41.7969%
+t=84 h | cells=36 | area=25.5755/60 | coverage=42.6259%
+t=85 h | cells=36 | area=26.1691/60 | coverage=43.6152%
+t=86 h | cells=36 | area=26.792/60 | coverage=44.6534%
+t=87 h | cells=36 | area=27.455/60 | coverage=45.7583%
+t=88 h | cells=36 | area=28.0737/60 | coverage=46.7895%
+t=89 h | cells=36 | area=28.6665/60 | coverage=47.7775%
+t=90 h | cells=36 | area=29.2956/60 | coverage=48.826%
+t=91 h | cells=40 | area=29.8394/60 | coverage=49.7323%
+t=92 h | cells=40 | area=30.332/60 | coverage=50.5533%
+t=93 h | cells=40 | area=30.9721/60 | coverage=51.6202%
+t=94 h | cells=40 | area=31.5929/60 | coverage=52.6548%
+t=95 h | cells=40 | area=32.1555/60 | coverage=53.5924%
+t=96 h | cells=40 | area=32.7065/60 | coverage=54.5109%
+t=97 h | cells=40 | area=33.2464/60 | coverage=55.4106%
+t=98 h | cells=40 | area=33.7777/60 | coverage=56.2962%
+t=99 h | cells=40 | area=34.3097/60 | coverage=57.1829%
+t=100 h | cells=40 | area=34.8014/60 | coverage=58.0024%
+t=101 h | cells=40 | area=35.2363/60 | coverage=58.7272%
+t=102 h | cells=40 | area=35.641/60 | coverage=59.4016%
+t=103 h | cells=42 | area=35.9678/60 | coverage=59.9464%
+t=104 h | cells=42 | area=36.4192/60 | coverage=60.6987%
+t=105 h | cells=42 | area=36.8799/60 | coverage=61.4665%
+t=106 h | cells=42 | area=37.3328/60 | coverage=62.2213%
+t=107 h | cells=42 | area=37.6087/60 | coverage=62.6812%
+t=108 h | cells=42 | area=37.8309/60 | coverage=63.0514%
+t=109 h | cells=42 | area=38.0365/60 | coverage=63.3941%
+t=110 h | cells=42 | area=38.2304/60 | coverage=63.7174%
+t=111 h | cells=46 | area=38.4079/60 | coverage=64.0132%
+t=112 h | cells=46 | area=38.5991/60 | coverage=64.3318%
+t=113 h | cells=56 | area=38.7586/60 | coverage=64.5976%
+t=114 h | cells=56 | area=38.9793/60 | coverage=64.9654%
+t=115 h | cells=56 | area=39.2358/60 | coverage=65.3931%
+t=116 h | cells=56 | area=39.5306/60 | coverage=65.8843%
+t=117 h | cells=56 | area=39.8839/60 | coverage=66.4731%
+t=118 h | cells=56 | area=40.2395/60 | coverage=67.0658%
+t=119 h | cells=56 | area=40.5734/60 | coverage=67.6224%
+t=120 h | cells=61 | area=40.9382/60 | coverage=68.2303%
+t=121 h | cells=61 | area=41.2458/60 | coverage=68.7431%
+t=122 h | cells=61 | area=41.6198/60 | coverage=69.3663%
+t=123 h | cells=61 | area=42.0626/60 | coverage=70.1043%
+t=124 h | cells=61 | area=42.5813/60 | coverage=70.9689%
+t=125 h | cells=61 | area=43.1245/60 | coverage=71.8741%
+t=126 h | cells=61 | area=43.7053/60 | coverage=72.8422%
+t=127 h | cells=68 | area=44.2657/60 | coverage=73.7761%
+t=128 h | cells=68 | area=44.8491/60 | coverage=74.7484%
+t=129 h | cells=68 | area=45.6899/60 | coverage=76.1498%
+t=130 h | cells=68 | area=46.5439/60 | coverage=77.5731%
+t=131 h | cells=68 | area=47.3833/60 | coverage=78.9722%
+t=132 h | cells=68 | area=48.2104/60 | coverage=80.3507%
+t=133 h | cells=68 | area=49.0492/60 | coverage=81.7487%
+t=134 h | cells=68 | area=49.8986/60 | coverage=83.1643%
+t=135 h | cells=68 | area=50.7587/60 | coverage=84.5978%
+t=136 h | cells=68 | area=51.6199/60 | coverage=86.0332%
+t=137 h | cells=68 | area=52.465/60 | coverage=87.4417%
+t=138 h | cells=68 | area=53.2828/60 | coverage=88.8046%
+t=139 h | cells=72 | area=53.9699/60 | coverage=89.9498%
+t=140 h | cells=72 | area=54.6908/60 | coverage=91.1513%
+t=141 h | cells=72 | area=55.4804/60 | coverage=92.4673%
+t=142 h | cells=72 | area=56.307/60 | coverage=93.845%
+t=143 h | cells=72 | area=56.9313/60 | coverage=94.8855%
+t=144 h | cells=72 | area=57.4362/60 | coverage=95.727%
+t=145 h | cells=72 | area=57.92/60 | coverage=96.5333%
+t=146 h | cells=72 | area=58.3787/60 | coverage=97.2978%
+t=147 h | cells=78 | area=58.7966/60 | coverage=97.9943%
+t=148 h | cells=78 | area=59.1625/60 | coverage=98.6041%
+t=149 h | cells=91 | area=59.4531/60 | coverage=99.0885%
+t=150 h | cells=91 | area=59.6479/60 | coverage=99.4132%
+t=151 h | cells=91 | area=59.7981/60 | coverage=99.6636%
+t=152 h | cells=91 | area=59.944/60 | coverage=99.9066%
+t=153 h | cells=91 | area=60/60 | coverage=100%
+Box fully covered (100%) at t=153 h. Stopping.
+Final cell count: 91
+Passed
+Entering TestCycleScale_2p00
+Starting simulation: CycleScale_2.00
+cycleScaleFactor = 2 (total cycle = 48 h)
+Target area: 60 units^2
+Initial cell count: 6
+t=1 h | cells=6 | area=5.4701/60 | coverage=9.11683%
+t=2 h | cells=6 | area=5.49548/60 | coverage=9.15913%
+t=3 h | cells=6 | area=5.52167/60 | coverage=9.20279%
+t=4 h | cells=7 | area=5.5066/60 | coverage=9.17767%
+t=5 h | cells=7 | area=5.57417/60 | coverage=9.29028%
+t=6 h | cells=8 | area=5.62204/60 | coverage=9.37007%
+t=7 h | cells=9 | area=5.69411/60 | coverage=9.49019%
+t=8 h | cells=9 | area=5.83707/60 | coverage=9.72845%
+t=9 h | cells=9 | area=6.01114/60 | coverage=10.0186%
+t=10 h | cells=9 | area=6.18995/60 | coverage=10.3166%
+t=11 h | cells=9 | area=6.37008/60 | coverage=10.6168%
+t=12 h | cells=9 | area=6.55058/60 | coverage=10.9176%
+t=13 h | cells=9 | area=6.72336/60 | coverage=11.2056%
+t=14 h | cells=9 | area=6.87533/60 | coverage=11.4589%
+t=15 h | cells=9 | area=7.02901/60 | coverage=11.715%
+t=16 h | cells=10 | area=7.15327/60 | coverage=11.9221%
+t=17 h | cells=10 | area=7.32377/60 | coverage=12.2063%
+t=18 h | cells=10 | area=7.52741/60 | coverage=12.5457%
+t=19 h | cells=10 | area=7.73167/60 | coverage=12.8861%
+t=20 h | cells=10 | area=7.93573/60 | coverage=13.2262%
+t=21 h | cells=10 | area=8.13951/60 | coverage=13.5658%
+t=22 h | cells=10 | area=8.34305/60 | coverage=13.9051%
+t=23 h | cells=10 | area=8.5464/60 | coverage=14.244%
+t=24 h | cells=10 | area=8.73361/60 | coverage=14.556%
+t=25 h | cells=10 | area=8.88756/60 | coverage=14.8126%
+t=26 h | cells=11 | area=9.00352/60 | coverage=15.0059%
+t=27 h | cells=11 | area=9.14522/60 | coverage=15.242%
+t=28 h | cells=11 | area=9.25062/60 | coverage=15.4177%
+t=29 h | cells=11 | area=9.35537/60 | coverage=15.5923%
+t=30 h | cells=11 | area=9.46001/60 | coverage=15.7667%
+t=31 h | cells=11 | area=9.56445/60 | coverage=15.9407%
+t=32 h | cells=11 | area=9.66866/60 | coverage=16.1144%
+t=33 h | cells=11 | area=9.77284/60 | coverage=16.2881%
+t=34 h | cells=11 | area=9.87618/60 | coverage=16.4603%
+t=35 h | cells=11 | area=9.97939/60 | coverage=16.6323%
+t=36 h | cells=11 | area=10.0773/60 | coverage=16.7955%
+t=37 h | cells=11 | area=10.1316/60 | coverage=16.8859%
+t=38 h | cells=11 | area=10.1825/60 | coverage=16.9709%
+t=39 h | cells=11 | area=10.2345/60 | coverage=17.0575%
+t=40 h | cells=11 | area=10.2866/60 | coverage=17.1443%
+t=41 h | cells=12 | area=10.3032/60 | coverage=17.172%
+t=42 h | cells=12 | area=10.3979/60 | coverage=17.3299%
+t=43 h | cells=12 | area=10.5001/60 | coverage=17.5001%
+t=44 h | cells=12 | area=10.6027/60 | coverage=17.6711%
+t=45 h | cells=12 | area=10.7053/60 | coverage=17.8421%
+t=46 h | cells=12 | area=10.776/60 | coverage=17.96%
+t=47 h | cells=12 | area=10.8281/60 | coverage=18.0469%
+t=48 h | cells=12 | area=10.88/60 | coverage=18.1333%
+t=49 h | cells=12 | area=10.9317/60 | coverage=18.2195%
+t=50 h | cells=12 | area=10.9833/60 | coverage=18.3055%
+t=51 h | cells=12 | area=11.0348/60 | coverage=18.3913%
+t=52 h | cells=14 | area=11.0093/60 | coverage=18.3488%
+t=53 h | cells=14 | area=11.1391/60 | coverage=18.5652%
+t=54 h | cells=16 | area=11.2433/60 | coverage=18.7388%
+t=55 h | cells=18 | area=11.3882/60 | coverage=18.9803%
+t=56 h | cells=18 | area=11.6722/60 | coverage=19.4537%
+t=57 h | cells=18 | area=12.0199/60 | coverage=20.0331%
+t=58 h | cells=18 | area=12.3757/60 | coverage=20.6261%
+t=59 h | cells=18 | area=12.7329/60 | coverage=21.2215%
+t=60 h | cells=18 | area=13.0903/60 | coverage=21.8171%
+t=61 h | cells=18 | area=13.4273/60 | coverage=22.3788%
+t=62 h | cells=18 | area=13.7317/60 | coverage=22.8862%
+t=63 h | cells=18 | area=14.0364/60 | coverage=23.3941%

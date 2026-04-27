@@ -1,0 +1,34 @@
+<ChasteBuildInfo>
+	<ProvenanceInfo>
+		<VersionString>2024.2.2dd6fe</VersionString> <!-- build specific -->
+		<IsWorkingCopyModified>1</IsWorkingCopyModified>
+		<BuildInformation>Release</BuildInformation>
+		<BuildTime>Wed, 08 Jan 2025 07:16:20 +0000</BuildTime>
+		<CurrentTime>Sat, 04 Apr 2026 07:05:56 +0000</CurrentTime>
+		<BuilderUnameInfo>Linux</BuilderUnameInfo>
+		<ChasteTestOutputDirectory>/workspace/replicated_testoutput/</ChasteTestOutputDirectory>
+		<Projects>
+		</Projects>
+	</ProvenanceInfo>
+	<Compiler>
+		<NameAndVersion>/home/conda/build_artifacts/chaste_1736320297758/_build_env/bin/x86_64-conda-linux-gnu-c++, version 11.4.0</NameAndVersion>
+		<Flags>-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -fdebug-prefix-map=/home/conda/build_artifacts/chaste_1736320297758/work=/usr/local/src/conda/chaste-2024.1 -fdebug-prefix-map=/opt/conda=/usr/local/src/conda-prefix -Wall -Werror -Wnon-virtual-dtor -Woverloaded-virtual -Wextra -Wno-attributes -Wno-unused-parameter -Wvla -Wimplicit-fallthrough=2 -Wno-maybe-uninitialized -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -O3 -DNDEBUG</Flags>
+	</Compiler>
+	<Libraries>
+		<CompiledIn>
+			<PETSc>3.18.4</PETSc>
+			<Boost>1.81.0</Boost>
+			<HDF5>1.12.2</HDF5>
+			<Parmetis>4.0.3</Parmetis>
+		</CompiledIn>
+		<Binaries>
+			<XSD>4.0.0</XSD>
+		</Binaries>
+		<Optional>
+			<SUNDIALS>6.7.0</SUNDIALS>
+			<VTK>7.1</VTK>
+			<Xerces>3.2.4</Xerces>
+		</Optional>
+	</Libraries>
+	<ChasteCodegenVersion>chaste_codegen 0.10.5</ChasteCodegenVersion>
+</ChasteBuildInfo>

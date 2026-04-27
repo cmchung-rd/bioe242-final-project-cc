@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" header_type="UInt32">
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="22"                   NumberOfCells="6"                   >
+      <PointData>
+      </PointData>
+      <CellData>
+        <DataArray type="Float64" Name="Cell volumes" format="appended" RangeMin="0.93324180586"        RangeMax="0.94435182683"        offset="0"                   />
+        <DataArray type="Float64" Name="Prolif Cell types" format="appended" RangeMin="1"                    RangeMax="1"                    offset="72"                  />
+        <DataArray type="Float64" Name="Legacy Cell types" format="appended" RangeMin="1"                    RangeMax="1"                    offset="144"                 />
+        <DataArray type="Float64" Name="target area" format="appended" RangeMin="1"                    RangeMax="1"                    offset="216"                 />
+        <DataArray type="Float64" Name="volume" format="appended" RangeMin="0.93324180586"        RangeMax="0.94435182683"        offset="288"                 />
+      </CellData>
+      <Points>
+        <DataArray type="Float64" Name="Vertex positions" NumberOfComponents="3" format="appended" RangeMin="1.0336713422"         RangeMax="4.9147646207"         offset="360"                 />
+      </Points>
+      <Cells>
+        <DataArray type="Int64" Name="connectivity" format="appended" RangeMin=""                     RangeMax=""                     offset="1072"                />
+        <DataArray type="Int64" Name="offsets" format="appended" RangeMin=""                     RangeMax=""                     offset="1464"                />
+        <DataArray type="UInt8" Name="types" format="appended" RangeMin=""                     RangeMax=""                     offset="1536"                />
+      </Cells>
+    </Piece>
+  </UnstructuredGrid>
+  <AppendedData encoding="base64">
+   _MAAAAGtVkEzX7+0/vA1t6x3d7T9ZFFqFaDDuP1StYK7TCu4/a5UD7LcL7j9ta4VSITjuPw==MAAAAAAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPw==MAAAAAAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPw==MAAAAAAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPw==MAAAAGtVkEzX7+0/vA1t6x3d7T9ZFFqFaDDuP1StYK7TCu4/a5UD7LcL7j9ta4VSITjuPw==EAIAALmktO5WXOM/1jPkvcfR6j8AAAAAAAAAAHZ7d5Eu7Pg/uYzgrwc37T8AAAAAAAAAALHJlcIq5gVA2ZyUULYs7D8AAAAAAAAAAAAAAAAAAAAAAGHHAldF8T8AAAAAAAAAAOd/Fb4dffA/sinT1n1s+D8AAAAAAAAAAARET4lWdAFAaI4+Y6Sg+D8AAAAAAAAAABIc9UTjNAtAGq11hLZu9D8AAAAAAAAAAAAAAAAAAAAAeEQbK0gR/z8AAAAAAAAAALdHmBfxN/A/NWMsiEYM/j8AAAAAAAAAAGMvcTlcgwFApuzNYf8o/T8AAAAAAAAAAHPu1yjBYAhAgVgIDc9UAEAAAAAAAAAAABAgd54mB+k/3dVT51/8/z8AAAAAAAAAAAhUSI+EH/k/cirW2KGjAUAAAAAAAAAAAG4knlMWwwZAIkLStJROAUAAAAAAAAAAAELCBBdMgg9AcSxJU3iUAEAAAAAAAAAAAE/S2/HYqNY/7XzKGrcmBkAAAAAAAAAAAA6jNmT8RPk/43/Z4BpsA0AAAAAAAAAAAEomoGBAtgZAUxrqOA9PA0AAAAAAAAAAAFNndZjNDRBAnKf0KZKxBkAAAAAAAAAAABU7Mmjn8vA/7HydS+iQCUAAAAAAAAAAAM+3VKK5yQBA1dRCDVKPCEAAAAAAAAAAAIsM6DniLApADY4wDGThCEAAAAAAAAAAAA==IAEAAAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAsAAAAAAAAABwAAAAAAAAADAAAAAAAAAAEAAAAAAAAABQAAAAAAAAAJAAAAAAAAAAwAAAAAAAAACAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAABgAAAAAAAAAKAAAAAAAAAA0AAAAAAAAACQAAAAAAAAAFAAAAAAAAAAgAAAAAAAAADAAAAAAAAAAQAAAAAAAAABMAAAAAAAAADwAAAAAAAAALAAAAAAAAAAkAAAAAAAAADQAAAAAAAAARAAAAAAAAABQAAAAAAAAAEAAAAAAAAAAMAAAAAAAAAAoAAAAAAAAADgAAAAAAAAASAAAAAAAAABUAAAAAAAAAEQAAAAAAAAANAAAAAAAAAA==MAAAAAYAAAAAAAAADAAAAAAAAAASAAAAAAAAABgAAAAAAAAAHgAAAAAAAAAkAAAAAAAAAA==BgAAAAcHBwcHBw==
+  </AppendedData>
+</VTKFile>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" header_type="UInt32">
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="3"                    NumberOfCells="1"                   >
+      <PointData>
+      </PointData>
+      <CellData>
+        <DataArray type="Float64" Name="Cell volumes" format="appended" RangeMin="0.0046165274061"      RangeMax="0.0046165274061"      offset="0"                   />
+        <DataArray type="Float64" Name="Prolif Cell types" format="appended" RangeMin="1"                    RangeMax="1"                    offset="16"                  />
+        <DataArray type="Float64" Name="Legacy Cell types" format="appended" RangeMin="1"                    RangeMax="1"                    offset="32"                  />
+        <DataArray type="Float64" Name="target area" format="appended" RangeMin="1"                    RangeMax="1"                    offset="48"                  />
+        <DataArray type="Float64" Name="volume" format="appended" RangeMin="0.0046165274061"      RangeMax="0.0046165274061"      offset="64"                  />
+      </CellData>
+      <Points>
+        <DataArray type="Float64" Name="Vertex positions" NumberOfComponents="3" format="appended" RangeMin="3.1018466523"         RangeMax="3.3248323236"         offset="80"                  />
+      </Points>
+      <Cells>
+        <DataArray type="Int64" Name="connectivity" format="appended" RangeMin=""                     RangeMax=""                     offset="184"                 />
+        <DataArray type="Int64" Name="offsets" format="appended" RangeMin=""                     RangeMax=""                     offset="224"                 />
+        <DataArray type="UInt8" Name="types" format="appended" RangeMin=""                     RangeMax=""                     offset="240"                 />
+      </Cells>
+    </Piece>
+  </UnstructuredGrid>
+  <AppendedData encoding="base64">
+   _CAAAAFOSr6PH6HI/CAAAAAAAAAAAAPA/CAAAAAAAAAAAAPA/CAAAAAAAAAAAAPA/CAAAAFOSr6PH6HI/SAAAAPhXn2A21QRA3VjNBomJAEAAAAAAAAAAAIbkVrjzSQRACF6AhS7CAEAAAAAAAAAAABKHUG7ysAJA92pzV3dSAEAAAAAAAAAAAA==GAAAAAIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==CAAAAAMAAAAAAAAAAQAAAAc=
+  </AppendedData>
+</VTKFile>
